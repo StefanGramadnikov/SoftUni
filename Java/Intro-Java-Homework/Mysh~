@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Xmx512M&nbsp; -jar jpdf2html.jar

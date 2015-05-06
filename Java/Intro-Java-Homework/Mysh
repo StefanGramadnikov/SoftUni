@@ -1,0 +1,5 @@
+#!/bin/bash
+java -jar executable.jar &
+MyPID=$!
+echo $MyPID
+echo "kill $MyPID" > MyStop.sh

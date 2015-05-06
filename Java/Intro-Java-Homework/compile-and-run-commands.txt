@@ -1,0 +1,13 @@
+Step 1: Installing JDK8
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+Step 2: Setup JAVA enviorment
+$ sudo apt-get install oracle-java8-set-default
+Step 3:Move to the directory containing the source file
+$ cd ~/workspace/Intro-Java-Homework/src (Location of directory containing source file)
+Step 4:Compile JAVA program
+javac SumTwoNumbers.java
+Step 5:Run JAVA program
+java SumTwoNumbers
+
