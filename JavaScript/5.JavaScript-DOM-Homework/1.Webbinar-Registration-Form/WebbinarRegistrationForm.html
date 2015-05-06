@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="WebbinarRegistrationForm.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Регистрация за уебинар</h1>
+
+    <form action="registration">
+        <label for="name">Име и фамилия:<span>*</span></label>
+        <input type="text" id="name"/>
+        <label for="adress">Адрес: </label>
+        <input type="text" id="adress"/>
+        <label for="city">Населено място: </label>
+        <input type="text" id="city"/>
+        <label for="post code">Пощенски код: </label>
+        <input type="number" id="post code"/>
+        <label for="email">Email:<span>*</span></label>
+        <input type="email" id="email"/>
+        <label for="phone">Телфон:<span>*</span></label>
+        <input type="tel" id="phone"/>
+        <label for="event date">Дата на семинара</label>
+        <input type="date" id="event date"/>
+        <input type="checkbox" id="checkbox"/>
+        <label for="checkbox" class="same-line">Желая фактура</label>
+    </form>
+
+    <form class="hide" action="hide" id="hidden">
+        <label for="organization-name">Фирма/Организация:<span>*</span></label>
+        <input type="text" id="organization-name"/>
+        <label for="mol">МОЛ:<span>*</span> </label>
+        <input type="text" id="mol"/>
+        <label for="eik">ЕИК:<span>*</span> </label>
+        <input type="text" id="eik"/>
+        <label for="dds">ИН по ДДС:<span>*</span> </label>
+        <input type="number" id="dds"/>
+        <label for="organization-address">Адрес:<span>*</span></label>
+        <input type="email" id="organization-address"/>
+    </form>
+
+    <form action="buttons">
+        <button>Регистрирай се</button>
+        <button>Изчисти</button>
+    </form>
+    
+</div>
+
+<script src="WebbinarRegistrationForm.js"></script>
+</body>
+</html>

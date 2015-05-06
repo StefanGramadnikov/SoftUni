@@ -1,0 +1,97 @@
+form{
+    display: inline-block;
+}
+h1 {
+    color: #234465;
+}
+p{
+    color: darkgrey;
+}
+span {
+    text-transform: uppercase;
+    color: darkgrey;
+}
+span.blue{
+    color: #234465;
+}
+span.login{
+    color: white;
+}
+
+ul {
+    list-style: none;
+    width: 300px;
+    height: auto;
+}
+.main{
+    background-color: #EEEEEE;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+    background-color: #234465;
+}
+a{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    position: relative;
+    bottom: 50px;
+    left: 135px;
+}
+.register_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.register_form input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+.login_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.login_form input {
+    height: 20px;
+    width: 250px;
+    padding: 5px 8px;
+}
+.checkbox{
+    position: relative;
+    right: 118px;
+}
+.remember {
+    position: relative;
+    left: 140px;
+    bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.register{
+    border-color: #234465;
+    background-color: #EEEEEE;
+    margin-top: 6px;;
+    width: 130px;
+    height: 30px;
+    position: relative;
+    left: 110px;
+}
+.right {
+    position: relative;
+    border-color: orange;
+    background-color: #234465;
+    width: 90px;
+    height: 30px;
+    bottom: 50px;
+    left: 24px;
+
+
+}

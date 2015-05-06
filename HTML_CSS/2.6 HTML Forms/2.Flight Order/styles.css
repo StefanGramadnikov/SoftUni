@@ -1,0 +1,71 @@
+form{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 443px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+}
+.left_side label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+}
+.right_side label {
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    padding: 3px;
+}
+.left_side input {
+    height:20px;
+    width:197px;
+    padding:5px 8px;
+}
+.right_side input{
+    height: 20px;
+    width: 197px;
+    padding:5px 8px;
+}
+select{
+    height:30px;
+    width:217px;
+}
+input.number{
+    width: 50px;
+}
+label.numbers{
+    width: 65px;
+}
+input.time {
+    width: 87px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+input.box{
+    width: 10px;
+    height: 10px;
+}
+button{
+    margin-top: 5px;
+    width: 217px;
+    height: 30px;
+
+}
+.left_side{
+    position: relative;
+    bottom: 33px;
+}
+
+

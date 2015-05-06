@@ -1,0 +1,21 @@
+table, th, td{
+	margin: 0 auto;
+	border: 1px solid black;
+	font-family: arial;
+}
+thead {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+tbody{
+	text-align: center;
+	font-weight: bold;
+}
+tfoot {
+	text-align: left;
+	font-size: 15px;
+}
+td.score{
+	text-align: right;
+}

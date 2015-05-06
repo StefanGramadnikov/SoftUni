@@ -1,0 +1,27 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    height: 25px;
+    background-color: #234465;
+    border: 1px solid transparent;
+    color: black;
+}
+button {
+    width: 35%;
+    height: 25px;
+    margin: 35px 97px;
+    background-color: transparent;
+    border: 1px solid #234465;
+    color: #234465;
+}
+p {
+    height: 25px;
+    background-color: #234465;
+    border: 1px solid transparent;
+    color: black;
+    margin: 0;
+    padding: 0;
+}

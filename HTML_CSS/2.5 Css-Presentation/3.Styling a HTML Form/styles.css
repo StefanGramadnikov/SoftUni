@@ -1,0 +1,82 @@
+.main {
+    margin: 0 150px;
+}
+li {
+    list-style: none;
+    padding-bottom: 25px;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background:rgba(255,255,255, 0.5);
+
+}
+ul {
+    background: url("formBackground.jpg");
+    background-size: cover;
+    width: 500px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.contact_form input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+    margin-top: 20px;
+
+}
+.steps {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    background: none;
+    border: none;
+}
+input.radio{
+    width: 50px;
+
+}
+.visa {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 8px;
+}
+.amex{
+    position: relative;
+    top: 8px;
+}
+.mastercard{
+    position: relative;
+    top: 8px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+.button {
+    background: none;
+    border: none;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit {
+    background-color: #04152F;
+    font-size: 20px;
+    color: wheat;
+    border-radius: 50px;
+    border: none;
+}
+li p{
+    margin: 0px;
+    padding: 0px;
+}

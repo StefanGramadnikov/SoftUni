@@ -1,0 +1,87 @@
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #F0F0F1;
+}
+header {
+    background-color: #384452;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline-block;
+    color: #AEB8C2;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.nav li.business{
+    color: white;
+}
+.form li{
+    display: inline-block;
+    width: 222px;
+    color: #2C3845;
+}
+
+.business {
+
+    background: url("resources/03-tab01.png") no-repeat left top;
+    background-size: 32%;
+    width: 150px;
+        padding-left: 17px;
+        padding-top: 19px;
+    background-color: #39BB95;
+}
+.categories {
+    background: url("resources/03-tab02.png") no-repeat left top;
+    background-size: 35%;
+    padding-left: 42px;
+    padding-top: 19px;
+}
+
+.locations {
+    background: url("resources/03-tab03.png") no-repeat left top;
+    background-size: 35%;
+    padding-left: 42px;
+    padding-top: 17px;
+}
+
+.agents {
+    background: url("resources/03-tab04.png") no-repeat left top;
+    background-size: 35%;
+    padding-left: 42px;
+    padding-top: 17px;
+}
+
+input {
+    margin: 15px 0 15px 0;
+    height: 30px;
+    width: 170px;
+    padding-left: 15px;
+}
+
+button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 189px;
+    height: 35px;
+    background-color: #3BBC96;
+    color: white;
+}
+
+button:hover {
+    background-color: #384452;
+}
+.form {
+    width: 90%;
+    padding-top: 25px;
+    margin: 0 auto;
+}

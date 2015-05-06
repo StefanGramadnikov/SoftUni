@@ -1,0 +1,140 @@
+body{
+    background-color: #50247D;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    color: white;
+    border-bottom: 7px solid #34A5D4;
+    background-image: url("resources/orion-gas-and-star-bgr.jpg");
+}
+
+h1 {
+    font-family: 'Oleo Script';
+    text-align: center;
+    font-size: 68px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'Oleo Script';
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 35px;
+}
+.nav{
+    text-align: center;
+    margin: 0 0 25px;
+    padding: 0;
+}
+.nav li {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 18px;
+    color: #50247D;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+.info {
+    background-color: #EAE7EE;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 25px;
+    border-bottom: 7px solid #35A5D6;
+    border-top: 7px solid #865AB3;
+}
+.second-header {
+    text-align: left;
+}
+section {
+    display: inline-block;
+    width: 450px;
+    margin: 20px;
+}
+article {
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.left {
+    clear: both;
+    height: 467px;
+    position: relative;
+    top: 4px;
+    background-color: white;
+    margin-left: 25px;
+}
+.text {
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+.zero {
+    margin: 0;
+    padding: 0;
+}
+.bold {
+    font-family: 'Oleo Script';
+    font-weight: bold;
+}
+.article {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #36A4D5;
+}
+.bottom-line {
+    margin-bottom: 25px;
+}
+article {
+    margin: 10px;
+    background-color: white;
+}
+button {
+    color: white;
+    background-color: #36A4D5;
+    border: 1px solid transparent;
+    font-size: 18px;
+    margin-left: 77px;
+    position: absolute;
+}
+.right article p {
+    margin-left: 15px;
+}
+footer {
+    color: white;
+}
+.read-left {
+    position: relative;
+    float: right;
+}
+.wallpaper {
+    background-color: #865AB3;
+    height: 30px;
+    position: relative;
+    left: 5px;
+}
+
+.nav li:hover {
+    color: white;
+    background-color: #34A2D2;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

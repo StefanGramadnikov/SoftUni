@@ -1,0 +1,44 @@
+.main{
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    border: thick dotted yellow;
+    border-right: solid green;
+    border-bottom: double blue;
+    border-left: dashed red;
+    box-shadow: 15px 15px 15px grey;
+}
+h1{
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #606060 ;
+    font-weight: normal;
+    font-size: 37px;
+    text-align: center;
+
+}
+.inner {
+    width: 450px;
+    height: 70px;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 45px;
+    box-shadow: 0 0 0 2px #ed2024, 0 0 0 4px #f6ec1f, 0 0 0 6px #379b46, 0 0 0 8px #3b50a2;
+
+}
+
+.inner p {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #606060 ;
+}
+.button {
+    position: relative;
+    left: 50px;
+    height: 15px;
+    background-color: #d79328;
+    padding: 2px 10px;
+    border: 3px outset #d79229;
+    cursor: pointer;
+}

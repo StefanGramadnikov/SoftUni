@@ -1,0 +1,23 @@
+h1{
+    content: url("wp-logo.jpg");
+    width: 270px;
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search{
+    background: url("wp-icon.jpg");
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: relative;
+    top: 7px;
+}
+input {
+    width: 100px;
+}

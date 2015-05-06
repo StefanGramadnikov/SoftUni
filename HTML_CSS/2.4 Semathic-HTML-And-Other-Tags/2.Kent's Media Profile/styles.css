@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding-right: 230px;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: pink;
+}
+meter {
+    position: relative;
+    left: 40px;
+    width: 230px;
+    height: 30px;
+
+}
+.black {
+    position: relative;
+    left: 300px;
+    bottom: 275px;
+}
+.audio {
+    display: block;
+    position: relative;
+    left: 300px;
+    bottom: 280px;
+}
+.video {
+    position: relative;
+    left: 700px;
+    bottom: 565px;
+}
+main {
+    width: 1100px;
+    margin: 0 auto;
+}

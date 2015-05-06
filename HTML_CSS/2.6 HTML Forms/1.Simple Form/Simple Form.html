@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="main">
+        <h1>Enter the system</h1>
+        <p>It is necessery to login in Your account in order to sign in for a course.</p>
+
+        <form class="register_form" name="register_form">
+            <ul class="mainList">
+                <span>are you new?</span><span class="blue"> register</span>
+                <li>
+                    <label for="userName"></label>
+                    <input type="text" name="userName" value="User name"/>
+                </li>
+                <li>
+                    <label for="email"></label>
+                    <input type="email" name="email" value="Email"/>
+                </li>
+                <li>
+                    <label for="password"></label>
+                    <input type="password" name="password" value="Password"/>
+                </li>
+                <li>
+                    <label for="conformation"></label>
+                    <input type="password" class="conformation" value="Confirm Password"/>
+                </li>
+                <li>
+                    <button class="register" type="submit">Register</button>
+                </li>
+            </ul>
+        </form>
+        <form class="login_form" name="login_form">
+            <ul class="login">
+                <span class="login">alredy a student? login</span>
+                <li>
+                    <label for="userName"></label>
+                    <input type="text" class="userName" value="User name"/>
+                </li>
+                <li>
+                    <label for="password"></label>
+                    <input type="password" class="password" value="Password"/>
+                </li>
+                <li class="checkbox">
+                    <label for="remember"></label>
+                    <input class="radio" type="checkbox" name="remember"/>
+                    <p class="remember">Remember me?</p>
+                </li>
+                <li>
+                    <label for="login"></label>
+                    <button type="submit" class="right">Login</button>
+                </li>
+                <span><a href="#">Forgot password</a></span>
+            </ul>
+        </form>
+
+        
+    </div>
+
+</body>
+</html>

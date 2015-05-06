@@ -1,0 +1,30 @@
+.wrapper {
+    background-color: #FFF7F0;
+    width: 350px;
+    margin: 0 auto;
+}
+form {
+    width: 200px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+}
+input {
+    width: 150px;
+}
+#checkbox {
+    display: inline-block;
+    width: 15px;
+    margin-right: 25px;
+}
+.same-line {
+    display: inline;
+}
+
+span {
+    color: red;
+}
+form.hide{
+    display: none;
+}

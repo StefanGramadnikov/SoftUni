@@ -1,0 +1,14 @@
+table, tr, td{
+	border: 1px solid black;
+}
+table img{
+	margin: 20px 10px;
+}
+table.name {
+	margin: 0 10px;
+	font-size: 86px;
+	font-family: 'Tahoma', sans-serif;
+
+}
+table.name td {
+	

@@ -1,0 +1,112 @@
+@font-face {
+    font-family: icons;
+    src: url(glyphicons-halflings-regular.ttf);
+}
+body {
+    background-image: url("background.png");
+}
+.main-container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 750px;
+    height: 320px;
+    background-color: #333333;
+    margin: 25px auto 0;
+}
+.header {
+    padding-top: 1px;
+    margin: 15px;
+}
+h1{
+    background-color: #679966;
+    color: #D8ECF6;
+    text-align: center;
+    font-family: Lobster, sans-serif;
+}
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #D8ECF6;
+}
+.advertisement-container {
+    width: 350px;
+    height: 215px;
+    float: left;
+    margin-left: 15px;
+    display: inline-block;
+    background-color: #232323;
+}
+.login-container {
+    width: 350px;
+    height: 215px;
+    margin: 15px;
+    float: right;
+    display: inline-block;
+}
+.fire {
+    height: 50%;
+    border-bottom: 1px solid #D7E5EE;
+    text-align: center;
+    font-size: 76px;
+    color: #D7E5EE;
+}
+.fire:before {
+    font-family: icons, sans-serif;
+    content: "\e104";
+}
+.advert {
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+    color: #D7E5EE;
+}
+.check:before {
+    font-family: icons, sans-serif;
+    content: "\e089";
+}
+.check {
+    padding-right: 5px;
+    font-size: 14px;
+    color: #D7E5EE;
+}
+.form {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.form li{
+    padding-top: 20px;
+}
+input {
+    width: 80%;
+    height: 25px;
+}
+.button {
+    width: 316px;
+    background-color: #679966;
+    color: #D8ECF6;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 30px;
+}
+.icon {
+    font-family: icons, sans-serif;
+    position: relative;
+    display: inline-block;
+    background-color: #679966;
+    margin: 0;
+    padding: 0;
+    top: 9px;
+    font-size: 25px;
+    height: 30px;
+    width: 32px;
+}
+.icon[for="username"]:before {
+    content: "\e008";
+}
+.icon[for="country"]:before {
+    content: "\e135";
+}
